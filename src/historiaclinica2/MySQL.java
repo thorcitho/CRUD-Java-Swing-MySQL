@@ -19,7 +19,7 @@ public class MySQL {
     static PreparedStatement ps = null;
     static String bd = "historiaclinica2";
     static String login = "root";
-    static String password = "73972360THOR";
+    static String password = "";
     static String url = "jdbc:mysql://localhost/" + bd;
 
     public static Connection Conexion(Connection conn) throws SQLException {
